@@ -3,7 +3,6 @@ import useFetch from "./useFetch";
 
 const Advisors = ( ) => {
   const { data: blogs, isPending, error } = useFetch('http://localhost:8001/advisors')
-  
     return (  
     <div className="advisor">
       <h2>Advisors</h2>
