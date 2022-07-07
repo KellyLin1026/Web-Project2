@@ -12,7 +12,7 @@ function EditProfile() {
     getUsers();
   }, [])
   function getUsers() {
-    fetch("http://localhost:8001/profile").then((result) => {
+    fetch("http://localhost:3000/profile").then((result) => {
       result.json().then((resp) => {
         // console.warn(resp)
         setUser(resp)
@@ -39,7 +39,7 @@ function EditProfile() {
   {
     let item={name,mobile,email,intro}
     console.warn("item",item)
-    fetch(`http://localhost:8001/profile/${userId}`, {
+    fetch(`http://localhost:3000/profile/${userId}`, {
       method: 'PUT',
       headers:{
         'Accept':'application/json',

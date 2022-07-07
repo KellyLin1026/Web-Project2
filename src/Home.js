@@ -1,9 +1,6 @@
-import Match from './match';
-import useFetch from "./useFetch";
 import { Link } from 'react-router-dom';
 
 const Home = () => {
-    const { data: blogs, isPending, error } = useFetch('http://localhost:8001/match')
     return ( 
         <div className="home">
             <h2>Welcome to Tales Kingdom</h2>
