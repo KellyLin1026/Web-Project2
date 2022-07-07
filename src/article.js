@@ -5,7 +5,7 @@ import woman from './woman.png';
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const { data: blog, error, isPending } = useFetch('http://localhost:3001/articles/' + id);
+  const { data: blog, error, isPending } = useFetch('http://localhost:8010/articles' + id);
   
   return (
     <div className="article">
