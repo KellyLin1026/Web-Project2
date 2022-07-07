@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Web-Project2/static/css/main.c27c6f16.css",
+    "main.js": "/Web-Project2/static/js/main.a5b4f7ca.js",
+    "static/media/woman.png": "/Web-Project2/static/media/woman.39acfdd8c10d32e77dc7.png",
+    "index.html": "/Web-Project2/index.html",
+    "main.c27c6f16.css.map": "/Web-Project2/static/css/main.c27c6f16.css.map",
+    "main.a5b4f7ca.js.map": "/Web-Project2/static/js/main.a5b4f7ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c27c6f16.css",
+    "static/js/main.a5b4f7ca.js"
+  ]
+}
