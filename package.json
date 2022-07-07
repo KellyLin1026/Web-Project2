@@ -1,4 +1,5 @@
 {
+  "homepage": "https://KellyLin1026.github.io/Web-Project2",
   "name": "web",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "delpoy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
