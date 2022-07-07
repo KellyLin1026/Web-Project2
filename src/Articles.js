@@ -2,7 +2,7 @@ import ArticleList from "./ArticleList";
 import useFetch from "./useFetch";
 
 const Advisors = ( ) => {
-  const { data: blogs, isPending, error } = useFetch('http://localhost:3000/articles')
+  const { data: blogs, isPending, error } = useFetch('http://localhost:3001/articles')
   
     return (  
     <div className="article">
