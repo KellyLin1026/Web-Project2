@@ -1,13 +1,233 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: #e9ebf7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.content {
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+.home h2{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.home{
+  padding: 30px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.home p{
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  background-color: #fdf7f8;
+  width: fit-content;
+  margin: auto;
+}
+.home::before{
+  content: "";
+  width: 500px;
+  height: 2px;
+  background-color: #add1ef;
+  display: block;
+  margin-left:  auto;
+  margin-right: auto;
+  transform: translateY(63px);
+}
+.buttom{
+  background-color: #fbd3c5;
+  border-color: #fbd3c5;
+  color: #000000;
+  border-radius: 20px;
+  font-size: 25px;
+  padding: 4px 30px;
+  margin: 20px;
+  font-weight: bold;
+}
+.content Link{
+  background-color: #fbd3c5;
+    border-color: #fbd3c5;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 4px 44px;
+    margin: 20px;
+    text-align: center;
+}
+/* advisors */
+.advisor h2{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.advisors{
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  text-align: center;
+  padding:10px
+}
+.advisors h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.advisors p{
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+.advisors img{
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  padding: 20px;
+}
+/* Details */
+.Details h3{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 30px;
+  padding-left: 20px;
+}
+.Details p{
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 20px;
+}
+.Details{
+  text-align: center;
+}
+.Details h4{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+.Details label{
+  font-size: 20px;
+}
+.Details button{
+  background-color: #fbd3c5;
+  border-color: #fbd3c5;
+  color: #000000;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 4px 44px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+.Details select {
+  margin: 10px 10px;
+  width: 150px;
+  font-size :20px;
+  text-align: center;
+}
+.Details table{
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  padding: 30px;
+}
+.Details input {
+  padding: 6px 15px;
+  margin: 10px 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.Details textarea{
+  padding: 20px 40px;
+  margin: 10px 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+/* Articles */
+.article h2{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.articles{
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  text-align: center;
+  padding:10px
+}
+.articles h2{
+  font-size: 30px;
+  color: #f1356d;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.articles p{
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+.articles img{
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  padding: 20px;
+}
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
