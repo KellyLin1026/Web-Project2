@@ -12,7 +12,7 @@ function EditProfile() {
     getUsers();
   }, [])
   function getUsers() {
-    fetch("http://localhost:8010/profile").then((result) => {
+    fetch("https://my-json-server.typicode.com/KellyLin1026/Web-Project2/profile").then((result) => {
       result.json().then((resp) => {
         // console.warn(resp)
         setUser(resp)
@@ -39,7 +39,7 @@ function EditProfile() {
   {
     let item={name,mobile,email,intro}
     console.warn("item",item)
-    fetch(`http://localhost:8010/profile/${userId}`, {
+    fetch(`https://my-json-server.typicode.com/KellyLin1026/Web-Project2/profile/${userId}`, {
       method: 'PUT',
       headers:{
         'Accept':'application/json',

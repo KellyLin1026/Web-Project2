@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 import woman from './woman.png'; 
 
 function Profile() {
-    const { data: blogs, isPending, error } = useFetch('http://localhost:8010/profile/')
-    const { data: comment } = useFetch('http://localhost:8010/consult/');
+    const { data: blogs, isPending, error } = useFetch('https://my-json-server.typicode.com/KellyLin1026/Web-Project2/profile/')
+    const { data: comment } = useFetch('https://my-json-server.typicode.com/KellyLin1026/Web-Project2/consult/');
 
     return (  
     <div className="article">

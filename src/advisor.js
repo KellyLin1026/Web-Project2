@@ -5,8 +5,8 @@ import woman from './woman.png';
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const { data: blog, error, isPending } = useFetch('http://localhost:8010/advisors/' + id);
-  const { data: comment } = useFetch('http://localhost:8010/blog');
+  const { data: blog, error, isPending } = useFetch('https://my-json-server.typicode.com/KellyLin1026/Web-Project2/advisors/' + id);
+  const { data: comment } = useFetch('https://my-json-server.typicode.com/KellyLin1026/Web-Project2/blog');
   
   return (
     <div className="advisor">
