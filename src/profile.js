@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 import woman from './woman.png'; 
 
 function Profile() {
-    const { data: blogs, isPending, error } = useFetch('http://localhost:3000/profile')
-    const { data: comment } = useFetch('http://localhost:3000/consult');
+    const { data: blogs, isPending, error } = useFetch('http://localhost:3000/profile/')
+    const { data: comment } = useFetch('http://localhost:3000/consult/');
 
     return (  
     <div className="article">
