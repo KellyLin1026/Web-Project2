@@ -44,7 +44,6 @@
       "body": "Over her head is the symbol of infinity suggesting her serene nature is everlasting. The wreath on her head infers victory and her white gown tells us she is pure of spirit.",
       "details": "If you have ever perused a tarot deck, you may have stumbled across The Magician tarot card. It is the second card in the major arcana, following The Fool. The Magician card is incredibly rich in symbolism, offering layer upon layer of meaning. ",
       "author": "mario",
-      "body2": "Au-dessus de sa tête se trouve le symbole de l'infini suggérant que sa nature sereine est éternelle. La couronne sur sa tête déduit la victoire et sa robe blanche nous dit qu'elle est pure d'esprit.",
       "details2": "Si vous avez déjà parcouru un jeu de tarot, vous êtes peut-être tombé sur la carte de tarot The Magician. C'est la deuxième carte des arcanes majeurs, après Le Fou. La carte Magicien est incroyablement riche en symbolisme.",
       "id": 1
     },
@@ -53,8 +52,7 @@
       "title2": "À propos des cartes de tarot",
       "body": "Sometimes when pulling a tarot card, we need more confirmation. So, we pull another. This can shift the meaning of the first tarot card and provide more insight into our situation.",
       "details": "In traditional tarot decks, the Strength card is depicted by a woman taming a lion. She is using compassion and a gentle touch, not physical strength, to soften the temper of the lion.",
-      "author": "kevin",
-      "body2": "Parfois, lorsque nous tirons une carte de tarot, nous avons besoin de plus de confirmation. Alors, on en tire un autre. Cela peut changer le sens de la première carte de tarot et donner un meilleur aperçu de notre situation.",
+      "author": "joyce",
       "details2": "Dans les jeux de tarot traditionnels, la carte Force est représentée par une femme apprivoisant un lion. Elle utilise la compassion et un toucher doux, pas la force physique, pour adoucir le tempérament du lion. ",
       "id": 2
     },
@@ -65,7 +63,6 @@
       "body": "I inherited my gift as a child, and is a third (3rd) generation Master Psychic. My gift allow me the ability to quickly pick up information about your past, present, and future. I can tell you anything you want to know about your love life.",
       "author": "Ariel",
       "details2": "Signe de l'infini Le chiffre 8 au-dessus de la tête du magicien signifie l'éternité et les possibilités infinies. La position du magicien est celle d'une personne se tenant en son pouvoir. Il avait son bras droit pointé vers le ciel et sa main gauche pointée vers la terre. ",
-      "body2": "J'ai hérité de mon don d'enfant et je suis un Maître Psychique de troisième (3e) génération. Mon don me permet de recueillir rapidement des informations sur votre passé, votre présent et votre avenir. Je peux vous dire tout ce que vous voulez savoir sur votre vie amoureuse. ",
       "id": 3
     },
     {
@@ -75,7 +72,6 @@
       "body": "I inherited my gift as a child, and is a third (3rd) generation Master Psychic. My gift allow me the ability to quickly pick up information about your past, present, and future. I can tell you anything you want to know about your love life.",
       "author": "Ariel",
       "details2": "Signe de l'infini Le chiffre 8 au-dessus de la tête du magicien signifie l'éternité et les possibilités infinies. La position du magicien est celle d'une personne se tenant en son pouvoir. Il avait son bras droit pointé vers le ciel et sa main gauche pointée vers la terre. ",
-      "body2": "J'ai hérité de mon don d'enfant et je suis un Maître Psychique de troisième (3e) génération. Mon don me permet de recueillir rapidement des informations sur votre passé, votre présent et votre avenir. Je peux vous dire tout ce que vous voulez savoir sur votre vie amoureuse. ",
       "id": 4
     }
   ],
@@ -118,5 +114,32 @@
       "body": "Just go and start finding the one",
       "id": 2
     }
-  ]
+  ],
+  "faqs":[
+    {
+     "id": 1,
+     "question": "What are the services do you offer",
+     "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis vitae tempora quod provident tenetur culpa dolore facere? Earum, dolor?"
+    },
+    {
+     "id": 2,
+     "question": "what are our preferred method of payment",
+     "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto iusto veniam eveniet labore impedit nam"
+    },
+    {
+     "id": 3,
+     "question": "Are your services beginners friendly",
+     "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores,"
+    },
+    {
+     "id": 4,
+     "question": "what how does it take to upgrade a package",
+     "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi."
+    },
+    {
+     "id": 5,
+     "question": "Where are your offices located around the world",
+     "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi."
+    }
+   ]
 }
