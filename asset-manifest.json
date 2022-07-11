@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Web-Project2/static/css/main.e0640f2c.css",
-    "main.js": "/Web-Project2/static/js/main.b32dd21e.js",
+    "main.js": "/Web-Project2/static/js/main.64055058.js",
     "static/media/tarot2.jpg": "/Web-Project2/static/media/tarot2.197a94b5f4670f7cfea9.jpg",
     "static/media/tarot.jpg": "/Web-Project2/static/media/tarot.074490f0768c6e131e7f.jpg",
     "static/media/woman.png": "/Web-Project2/static/media/woman.39acfdd8c10d32e77dc7.png",
     "index.html": "/Web-Project2/index.html",
     "main.e0640f2c.css.map": "/Web-Project2/static/css/main.e0640f2c.css.map",
-    "main.b32dd21e.js.map": "/Web-Project2/static/js/main.b32dd21e.js.map"
+    "main.64055058.js.map": "/Web-Project2/static/js/main.64055058.js.map"
   },
   "entrypoints": [
     "static/css/main.e0640f2c.css",
-    "static/js/main.b32dd21e.js"
+    "static/js/main.64055058.js"
   ]
 }
