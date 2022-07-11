@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import User from './User';
 import Personal from './Personal';
 import Success from './Success'
+import { Link } from 'react-router-dom';
 
 export class UserForm extends Component {
   state = {
@@ -59,6 +60,23 @@ export class UserForm extends Component {
               prevStep={this.prevStep}
               values={values}
                />;
+       case 4:
+        return(
+          <div className = "Details">
+            <h3>You have Register Successfully !</h3>
+            <Link to={`/`} style={{ 
+            backgroundColor: '#fbd3c5',
+            borderRadius: '8px',
+            color: 'black',
+            padding: '4px 14px',
+            margin: '20px',
+            textDecoration: 'none',
+            fontSize: '15px',
+            fontWeight: 'bold',
+            textAlign: 'center',
+            width: '100px'
+        }}>Back to Home</Link>
+        </div>         )
     }
   }
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+
 
 export class Success extends Component {
   continue = e => {
@@ -15,14 +15,13 @@ export class Success extends Component {
 
   render() {
     const {
-      values: {userName, password, email, money}
+      values: {userName,  email, money}
     } = this.props;
     return (
       <div className='Details'>
             <h1>Thank You For Your Submission</h1>
-            <p>You are Successfully Registered.</p>
+            <p>You are Successfully Paid.</p>
             <h4>User Name : {userName}</h4>
-            <h4>Password : {password}</h4>
             <h4>Email : {email}</h4>
             <h4>Money: {money}</h4>
          <br />
@@ -30,18 +29,9 @@ export class Success extends Component {
          <button
               onClick={this.back}
         >Back</button>
-      <Link to={`/`} style={{ 
-            backgroundColor: '#fbd3c5',
-            borderRadius: '8px',
-            color: 'black',
-            padding: '4px 14px',
-            margin: '20px',
-            textDecoration: 'none',
-            fontSize: '15px',
-            fontWeight: 'bold',
-            textAlign: 'center',
-            width: '100px'
-        }}>Back to Home</Link>
+        <button
+              onClick={this.continue}
+        >Continue</button>
       </div>
     );
   }

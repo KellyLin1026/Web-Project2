@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import User from './User';
 import PaymentList from './paymentList';
 import Confirm from './Confirm';
+import { Link } from 'react-router-dom';
 
 export class Payment extends Component {
   state = {
@@ -57,6 +58,23 @@ export class Payment extends Component {
               prevStep={this.prevStep}
               values={values}
                />;
+        case 4:
+                return(
+                  <div className = "Details">
+                    <h3>You have Complete the Payment Successfully !</h3>
+                    <Link to={`/`} style={{ 
+                    backgroundColor: '#fbd3c5',
+                    borderRadius: '8px',
+                    color: 'black',
+                    padding: '4px 14px',
+                    margin: '20px',
+                    textDecoration: 'none',
+                    fontSize: '15px',
+                    fontWeight: 'bold',
+                    textAlign: 'center',
+                    width: '100px'
+                }}>Back to Home</Link>
+                </div>         )
     }
   }
 }

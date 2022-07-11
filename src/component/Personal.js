@@ -15,7 +15,7 @@ export class Personal extends Component {
     const {values, handleChange} = this.props;
     return (
       <div className='Details'>
-        <h3>Register Personal information</h3>
+        <h3>Enter Personal information</h3>
         <br />
         <form>
         <label>Enter Your Occupation:  </label>
@@ -54,7 +54,7 @@ export class Personal extends Component {
               onClick={this.back}
         >Back</button>
          <button
-              onClick={this.continue}
+         onClick={this.continue}
         >Continue</button>
         <br />
       </form>

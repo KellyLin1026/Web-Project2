@@ -20,14 +20,14 @@ export class paymentList extends Component {
         <form>
         <label>Enter Your Number:  </label>
         <input 
-          type="text" 
+          type="number" 
           required 
         />
         <br />
         <br />
         <label>Enter Your Expiration Date:  </label>
         <input 
-          type="text" 
+          type="date" 
           required 
         />
          <br />
@@ -41,7 +41,7 @@ export class paymentList extends Component {
          <br />
          <label>Enter Your CVV:  </label>
         <input 
-          type="text" 
+          type="number" 
           required 
         />
          <br />
@@ -53,6 +53,7 @@ export class paymentList extends Component {
         />
          <br />
          <br />
+         <label>Select the Payment:  </label>
          <select
           onChange={handleChange('money')}
           defaultValue={values.money}

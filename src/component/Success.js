@@ -12,7 +12,6 @@ export class Success extends Component {
     e.preventDefault();
     this.props.prevStep();
   };
-
   render() {
     const {
       values: {userName, password, email, occupation, city, bio}
@@ -32,18 +31,9 @@ export class Success extends Component {
          <button
               onClick={this.back}
         >Back</button>
-      <Link to={`/`} style={{ 
-            backgroundColor: '#fbd3c5',
-            borderRadius: '8px',
-            color: 'black',
-            padding: '4px 14px',
-            margin: '20px',
-            textDecoration: 'none',
-            fontSize: '15px',
-            fontWeight: 'bold',
-            textAlign: 'center',
-            width: '100px'
-        }}>Back to Home</Link>
+        <button
+              onClick={this.continue}
+        >Continue</button>
       </div>
     );
   }

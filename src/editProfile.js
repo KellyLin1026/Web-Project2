@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react'
 function EditProfile() {
   const [users, setUser] = useState([])
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
   const [mobile, setMobile] = useState("");
   const [intro, setIntro] = useState("");
   const [userId,setUserId]=useState(null)
@@ -18,7 +17,6 @@ function EditProfile() {
         setUser(resp)
         setName(resp[0].name)
         setMobile(resp[0].mobile)
-        setEmail(resp[0].email)
         setIntro(resp[0].intro)
         setUserId(resp[0].id)
 
@@ -30,14 +28,13 @@ function EditProfile() {
   {
     let item=users[id-1];
     setName(item.name)
-        setEmail(item.email)
         setMobile(item.mobile);
         setIntro(item.intro)
         setUserId(item.id)
   }
   function updateUser()
   {
-    let item={name,mobile,email,intro}
+    let item={name,mobile,intro}
     console.warn("item",item)
     fetch(`https://my-json-server.typicode.com/KellyLin1026/Web-Project2/profile/${userId}`, {
       method: 'PUT',
@@ -63,8 +60,6 @@ function EditProfile() {
               <tr key={i}>
                 <h4>Name :{item.name}</h4>
                 <br></br>
-                <h4>Email: {item.email}</h4>
-                <br></br>
                 <h4>Mobile : {item.mobile}</h4>
                 <br></br>
                 <h4>Introduction : {item.intro}</h4>
@@ -80,8 +75,7 @@ function EditProfile() {
       <input type="file" id="myFile" name="filename" />
       <input type="submit" /><br /><br />
       <input type="text" value={name} onChange={(e)=>{setName(e.target.value)}} /> <br /><br />
-        <input type="text" value={email} onChange={(e)=>{setEmail(e.target.value)}} /> <br /><br />
-        <input type="text" value={mobile}  onChange={(e)=>{setMobile(e.target.value)}} /> <br /><br />
+        <input type="number" value={mobile}  onChange={(e)=>{setMobile(e.target.value)}} /> <br /><br />
         <textarea type="text" value={intro}  onChange={(e)=>{setIntro(e.target.value)}} /> <br /><br />
         <button onClick={updateUser} >Update User</button>  
       </div>
