@@ -107,37 +107,34 @@
     {
       "name": "Katie",
       "body": "You can start working on your relationship ",
-      "question": "What are the services do you offer",
-      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis vitae tempora quod provident tenetur culpa dolore facere? Earum, dolor?",
       "id": 1
     },
     {
       "name": "Jen",
       "body": "Just go and start finding the one",
-      "question": "what are our preferred method of payment",
-     "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto iusto veniam eveniet labore impedit nam",
       "id": 2
+    }
+  ],
+  "faqs":[
+    {
+     "id": 1,
+     "question": "What are the services do you offer",
+     "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis vitae tempora quod provident tenetur culpa dolore facere? Earum, dolor?"
+    },
+    {
+     "id": 2,
+     "question": "what are our preferred method of payment",
+     "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto iusto veniam eveniet labore impedit nam"
     },
     {
      "id": 3,
-     "name": "Katie",
-     "body": "You can start working on your relationship ",
      "question": "Are your services beginners friendly",
      "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores,"
     },
     {
      "id": 4,
-     "name": "Katie",
-     "body": "You can start working on your relationship ",
      "question": "what how does it take to upgrade a package",
      "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi."
-    },
-    {
-     "id": 5,
-     "name": "Katie",
-     "body": "You can start working on your relationship ",
-     "question": "Where are your offices located around the world",
-     "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi."
     }
-  ]
+   ]
 }
