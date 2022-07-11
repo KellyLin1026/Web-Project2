@@ -124,13 +124,6 @@
       "id": 3,
       "question": "Are your services beginners friendly",
       "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores,"
-     },
-     {
-      "name": "Jen",
-      "body": "Just go and start finding the one",
-      "id": 4,
-      "question": "what how does it take to upgrade a package",
-      "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi."
      }
   ]
 }
