@@ -2,7 +2,7 @@ import ArticleList from "./ArticleList";
 import useFetch from "./useFetch";
 
 const Advisors = ( ) => {
-  const { data: blogs, isPending, error } = useFetch('https://my-json-server.typicode.com/KellyLin1026/Web-Project2/articles')
+  const { data: blogs, isPending, error } = useFetch('https://my-json-server.typicode.com/KellyLin1026/Web-Project2/articles/')
   
     return (  
     <div className="article">
