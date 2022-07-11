@@ -25,7 +25,7 @@ const ArticleList = ({blogs, title }) => {
             textAlign: 'right',
             width: '100px'
         }}>English version</Link>
-        <Link to={`/articles2/${blog.id}`} style={{ 
+        <Link to={`/advisors/${blog.id}`} style={{ 
             backgroundColor: '#fbd3c5',
             borderRadius: '8px',
             color: 'black',
