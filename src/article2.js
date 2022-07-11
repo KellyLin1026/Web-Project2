@@ -14,15 +14,15 @@ const BlogDetails = () => {
       {isPending && <div>Loading...</div>}
       {blog && (
         <div className="articles" key={blog.id} >
-            <article>
+        <article>
         <img src = {tarot} />
-        <h2  className="Details">{ blog.title2 }</h2>
+        <h2  className="Details">{ blog.title }</h2>
         <h3>Auteure : {blog.author}</h3>
         <br></br>
-        <p className="Details"> { blog.details2 }</p>   
+        <p className="Details"> { blog.details }</p>   
         <br></br> 
         <br></br>
-            </article>
+        </article>
         <Link to={`/articles`} style={{ 
             backgroundColor: '#fbd3c5',
             borderRadius: '8px',
