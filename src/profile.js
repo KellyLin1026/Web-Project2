@@ -14,7 +14,7 @@ function Profile() {
       {error &&<div>{error}</div>}
       {isPending && <div>Loading...</div>}
       {blogs && blogs.map(blog => (
-        <div className="articles" key={blog.id} >
+        <div className="advisors" key={blog.id} >
         <img src = {woman} />
         <h2>{ blog.name }</h2>
         <h4>Advisors: 2 - Readings: 22 - Since: 2015</h4>
