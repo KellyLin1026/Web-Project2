@@ -53,7 +53,7 @@ export class User extends Component {
         <br />
         <label>Enter Your Password:  </label>
         <input 
-          type="text"
+          type="password"
           required
           onChange={handleChange('password')}
           defaultValue={values.password}

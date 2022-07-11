@@ -8,7 +8,7 @@ const Navbar = () => {
         <Link to="/" className="links">Home</Link>
         <Link to="/advisors" className="links">Advisors</Link>
         <Link to="/articles" className="links">Article</Link>
-        <Link to="/help" className="links">Help</Link>
+        <Link to="/help" className="links">Contact</Link>
         <Link to="/profile" className="links" style={{ 
           margin:'10px',
           color: 'white', 

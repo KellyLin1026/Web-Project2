@@ -26,7 +26,7 @@ const Home = () => {
             padding: '4px 14px',
             margin: '20px',
             textDecoration: 'none',
-            fontSize: '15px',
+            fontSize: '25px',
             fontWeight: 'bold',
             textAlign: 'center',
             width: '100px'

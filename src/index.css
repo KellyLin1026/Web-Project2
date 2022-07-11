@@ -11,7 +11,6 @@
   display: flex;
   align-items: center;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
   background-color: #e9ebf7;
 }
 
@@ -38,11 +37,9 @@
 }
 .home{
   padding: 30px;
+  background-image: url(tarot2.jpg);
   text-align: center;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 100vh;
 }
 .home p{
@@ -140,12 +137,11 @@
   background-color: #fbd3c5;
   border-color: #fbd3c5;
   color: #000000;
-  font-size: 25px;
-  font-weight: bold;
-  padding: 4px 44px;
-  margin: 20px;
-  text-align: center;
   border-radius: 20px;
+  font-size: 15px;
+  padding: 4px 30px;
+ 
+  font-weight: bold;
 }
 .Details select {
   margin: 10px 10px;
@@ -195,8 +191,8 @@
   margin: 0 auto;
 }
 .articles img{
-  width: 70px;
-  height: 70px;
+  width: 180px;
+  height: 140px;
   border-radius: 20px;
   padding: 20px;
 }

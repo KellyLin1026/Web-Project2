@@ -28,9 +28,9 @@ function EditProfile() {
   {
     let item=users[id-1];
     setName(item.name)
-        setMobile(item.mobile);
-        setIntro(item.intro)
-        setUserId(item.id)
+    setMobile(item.mobile);
+    setIntro(item.intro)
+    setUserId(item.id)
   }
   function updateUser()
   {
@@ -64,7 +64,18 @@ function EditProfile() {
                 <br></br>
                 <h4>Introduction : {item.intro}</h4>
                 <br></br>
-                <button onClick={() => selectUser(item.id)}>Update</button>
+                <button onClick={() => selectUser(item.id)} style={{ 
+            backgroundColor: '#fbd3c5',
+            borderRadius: '8px',
+            color: 'black',
+            padding: '4px 14px',
+            margin: '20px',
+            textDecoration: 'none',
+            fontSize: '15px',
+            fontWeight: 'bold',
+            textAlign: 'center',
+            width: '100px'
+        }}>Update</button>
               </tr>
             )
           }
@@ -77,7 +88,18 @@ function EditProfile() {
       <input type="text" value={name} onChange={(e)=>{setName(e.target.value)}} /> <br /><br />
         <input type="number" value={mobile}  onChange={(e)=>{setMobile(e.target.value)}} /> <br /><br />
         <textarea type="text" value={intro}  onChange={(e)=>{setIntro(e.target.value)}} /> <br /><br />
-        <button onClick={updateUser} >Update User</button>  
+        <button onClick={updateUser} style={{ 
+            backgroundColor: '#fbd3c5',
+            borderRadius: '8px',
+            color: 'black',
+            padding: '4px 14px',
+            margin: '20px',
+            textDecoration: 'none',
+            fontSize: '15px',
+            fontWeight: 'bold',
+            textAlign: 'center',
+            width: '100px'
+        }} >Update User</button>  
       </div>
     </div>
   );

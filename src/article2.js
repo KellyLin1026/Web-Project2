@@ -16,10 +16,10 @@ const BlogDetails = () => {
         <div className="articles" key={blog.id} >
             <article>
         <img src = {tarot} />
-        <h2  className="Details">{ blog.title }</h2>
-        <h3>Autohor : {blog.author}</h3>
+        <h2  className="Details">{ blog.title2 }</h2>
+        <h3>Auteure : {blog.author}</h3>
         <br></br>
-        <p className="Details"> { blog.details }</p>   
+        <p className="Details"> { blog.details2 }</p>   
         <br></br> 
         <br></br>
             </article>
@@ -34,7 +34,7 @@ const BlogDetails = () => {
             fontWeight: 'bold',
             textAlign: 'center',
             width: '100px'
-        }}>Back to Article</Link>
+        }}>Retour à l'article</Link>
       </div>
       )}
     </div>

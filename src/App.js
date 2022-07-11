@@ -6,6 +6,7 @@ import Advisors from './Advisors';
 import Advisor from './advisor';
 import Article from './Articles';
 import Articles from './article';
+import Articles2 from './article2';
 import Match from './match';
 import UserForm from './component/UserForm'
 import User from './component/User'
@@ -29,6 +30,7 @@ function App() {
             <Route path='/articles' element={<Article/>}></Route>
             <Route path='/advisors/:id' element={<Advisor/>}></Route>
             <Route path='/articles/:id' element={<Articles/>}></Route>
+            <Route path='/articles2/:id' element={<Articles2/>}></Route>
             <Route path='/match' element={<Match/>}></Route>
             <Route path='/component/User' element={<User/>}></Route>
             <Route path='/component/Login' element={<Login/>}></Route>
