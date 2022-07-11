@@ -19,9 +19,39 @@ function Profile() {
         <h2>{ blog.name }</h2>
         <h4>Advisors: 2 - Readings: 22 - Since: 2015</h4>
         <br/>
-        <h3>My Advisors: { blog.advisors }</h3>
+        <h3>My Advisors: Jen, Katie</h3>
         <br></br>
         <p>{ blog.intro }</p>
+        <br/>
+        <br/>
+        <Link to="/advisors" style={{ 
+            backgroundColor: '#fbd3c5',
+            borderRadius: '8px',
+            color: 'black',
+            padding: '4px 14px',
+            margin: '20px',
+            textDecoration: 'none',
+            fontSize: '15px',
+            fontWeight: 'bold',
+            textAlign: 'center',
+            width: '100px'
+        }}>View the Advisors</Link>
+        <br/>
+        <br/>
+        <br></br>
+        <Link to="/articles" style={{ 
+            backgroundColor: '#fbd3c5',
+            borderRadius: '8px',
+            color: 'black',
+            padding: '4px 14px',
+            margin: '20px',
+            textDecoration: 'none',
+            fontSize: '15px',
+            fontWeight: 'bold',
+            textAlign: 'center',
+            width: '100px'
+        }}>View the Articles</Link>
+        <br/>
         <br></br>
         <br></br>
         <h3>Reviews from the consultation: </h3>

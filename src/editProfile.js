@@ -85,8 +85,11 @@ function EditProfile() {
       <p class = "text2">Choose your profile picture: </p>
       <input type="file" id="myFile" name="filename" />
       <input type="submit" /><br /><br />
+      <p class = "text2">Edit your name: </p>
       <input type="text" value={name} onChange={(e)=>{setName(e.target.value)}} /> <br /><br />
+      <p class = "text2">Edit your mobile number: </p>
         <input type="number" value={mobile}  onChange={(e)=>{setMobile(e.target.value)}} /> <br /><br />
+        <p class = "text2">Edit your Introduction: </p>
         <textarea type="text" value={intro}  onChange={(e)=>{setIntro(e.target.value)}} /> <br /><br />
         <button onClick={updateUser} style={{ 
             backgroundColor: '#fbd3c5',

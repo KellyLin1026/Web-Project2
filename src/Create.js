@@ -10,7 +10,6 @@ const Create = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const blog = { title, body, author };
-
     fetch('https://my-json-server.typicode.com/KellyLin1026/Web-Project2/blog/', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
