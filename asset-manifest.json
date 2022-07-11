@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/Web-Project2/static/css/main.c27c6f16.css",
-    "main.js": "/Web-Project2/static/js/main.9ad4d715.js",
+    "main.css": "/Web-Project2/static/css/main.e0640f2c.css",
+    "main.js": "/Web-Project2/static/js/main.70de28b3.js",
+    "static/media/tarot2.jpg": "/Web-Project2/static/media/tarot2.197a94b5f4670f7cfea9.jpg",
+    "static/media/tarot.jpg": "/Web-Project2/static/media/tarot.074490f0768c6e131e7f.jpg",
     "static/media/woman.png": "/Web-Project2/static/media/woman.39acfdd8c10d32e77dc7.png",
     "index.html": "/Web-Project2/index.html",
-    "main.c27c6f16.css.map": "/Web-Project2/static/css/main.c27c6f16.css.map",
-    "main.9ad4d715.js.map": "/Web-Project2/static/js/main.9ad4d715.js.map"
+    "main.e0640f2c.css.map": "/Web-Project2/static/css/main.e0640f2c.css.map",
+    "main.70de28b3.js.map": "/Web-Project2/static/js/main.70de28b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.c27c6f16.css",
-    "static/js/main.9ad4d715.js"
+    "static/css/main.e0640f2c.css",
+    "static/js/main.70de28b3.js"
   ]
 }
