@@ -5,7 +5,7 @@ import tarot from './tarot.jpg';
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const { data: blog, error, isPending } = useFetch('http://my-json-server.typicode.com/KellyLin1026/Web-Project2/articles/' + id);
+  const { data: blog, error, isPending } = useFetch('https://my-json-server.typicode.com/KellyLin1026/Web-Project2/articles/' + id);
   
   return (
     <div className="article">
